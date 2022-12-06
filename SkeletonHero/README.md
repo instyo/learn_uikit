@@ -10,4 +10,4 @@ Today i learn how to make skeleton view in `TableView`, also i had experiment wi
 
 |Screen 1|Screen 2|Screen 3|
 |---|---|---|
-|<img src="ss1.png" width=400 />|<img src="ss2.png" width=400 />|<img src="ss3.png" width=400 />|
+|<img src="ss1.PNG" width=400 />|<img src="ss2.PNG" width=400 />|<img src="ss3.PNG" width=400 />|
