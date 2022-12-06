@@ -1,0 +1,6 @@
+framework module Pods_SkeletonHero {
+  umbrella header "Pods-SkeletonHero-umbrella.h"
+
+  export *
+  module * { export * }
+}

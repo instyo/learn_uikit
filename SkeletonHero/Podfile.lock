@@ -1,0 +1,20 @@
+PODS:
+  - Hero (1.6.2)
+  - SkeletonView (1.30.4)
+
+DEPENDENCIES:
+  - Hero
+  - SkeletonView
+
+SPEC REPOS:
+  trunk:
+    - Hero
+    - SkeletonView
+
+SPEC CHECKSUMS:
+  Hero: c69009dbc9e2f0472e081adc644dba05fcedae72
+  SkeletonView: 5a050f6411e697abd4cda0a8d767013399dccd69
+
+PODFILE CHECKSUM: 3f486b5dc522cc2c03db4b4360cd686fe15d450a
+
+COCOAPODS: 1.11.3

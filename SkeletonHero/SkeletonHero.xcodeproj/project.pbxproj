@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		446C4F89293F7FE90016A7B3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446C4F88293F7FE90016A7B3 /* DetailViewController.swift */; };
+		446C4F8B293F98810016A7B3 /* LoadingLandscapeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446C4F8A293F98810016A7B3 /* LoadingLandscapeTableViewCell.swift */; };
+		44B2F75E293E4D14007751A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B2F75D293E4D14007751A6 /* AppDelegate.swift */; };
+		44B2F760293E4D14007751A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B2F75F293E4D14007751A6 /* SceneDelegate.swift */; };
+		44B2F762293E4D14007751A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B2F761293E4D14007751A6 /* ViewController.swift */; };
+		44B2F767293E4D16007751A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44B2F766293E4D16007751A6 /* Assets.xcassets */; };
+		44B2F76A293E4D16007751A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B2F768293E4D16007751A6 /* LaunchScreen.storyboard */; };
+		44B2F773293E4DE0007751A6 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B2F772293E4DE0007751A6 /* View+Extension.swift */; };
+		44B2F777293E4E64007751A6 /* LandscapeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B2F776293E4E64007751A6 /* LandscapeModel.swift */; };
+		44B2F779293E5116007751A6 /* LandscapeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B2F778293E5116007751A6 /* LandscapeTableViewCell.swift */; };
+		52E04F2F07E8E70A7AEB2042 /* Pods_SkeletonHero.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43D57AF14E944E716F94F759 /* Pods_SkeletonHero.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43D57AF14E944E716F94F759 /* Pods_SkeletonHero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkeletonHero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		446C4F88293F7FE90016A7B3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		446C4F8A293F98810016A7B3 /* LoadingLandscapeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingLandscapeTableViewCell.swift; sourceTree = "<group>"; };
+		44B2F75A293E4D14007751A6 /* SkeletonHero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkeletonHero.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44B2F75D293E4D14007751A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44B2F75F293E4D14007751A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		44B2F761293E4D14007751A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44B2F766293E4D16007751A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44B2F769293E4D16007751A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44B2F76B293E4D16007751A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44B2F772293E4DE0007751A6 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		44B2F776293E4E64007751A6 /* LandscapeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandscapeModel.swift; sourceTree = "<group>"; };
+		44B2F778293E5116007751A6 /* LandscapeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandscapeTableViewCell.swift; sourceTree = "<group>"; };
+		85102626D2437FCCEDE7E909 /* Pods-SkeletonHero.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkeletonHero.debug.xcconfig"; path = "Target Support Files/Pods-SkeletonHero/Pods-SkeletonHero.debug.xcconfig"; sourceTree = "<group>"; };
+		BA0FF490699E5CD4144C4383 /* Pods-SkeletonHero.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkeletonHero.release.xcconfig"; path = "Target Support Files/Pods-SkeletonHero/Pods-SkeletonHero.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44B2F757293E4D14007751A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E04F2F07E8E70A7AEB2042 /* Pods_SkeletonHero.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CE50DB515CC34239172A70A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43D57AF14E944E716F94F759 /* Pods_SkeletonHero.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44B2F751293E4D14007751A6 = {
+			isa = PBXGroup;
+			children = (
+				44B2F75C293E4D14007751A6 /* SkeletonHero */,
+				44B2F75B293E4D14007751A6 /* Products */,
+				EEC102A0805D7013F927C15F /* Pods */,
+				1CE50DB515CC34239172A70A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		44B2F75B293E4D14007751A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44B2F75A293E4D14007751A6 /* SkeletonHero.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44B2F75C293E4D14007751A6 /* SkeletonHero */ = {
+			isa = PBXGroup;
+			children = (
+				44B2F775293E4DFE007751A6 /* Views */,
+				44B2F774293E4DE7007751A6 /* Extensions */,
+				44B2F771293E4DC5007751A6 /* Models */,
+				44B2F75D293E4D14007751A6 /* AppDelegate.swift */,
+				44B2F75F293E4D14007751A6 /* SceneDelegate.swift */,
+				44B2F761293E4D14007751A6 /* ViewController.swift */,
+				44B2F766293E4D16007751A6 /* Assets.xcassets */,
+				44B2F768293E4D16007751A6 /* LaunchScreen.storyboard */,
+				44B2F76B293E4D16007751A6 /* Info.plist */,
+				446C4F88293F7FE90016A7B3 /* DetailViewController.swift */,
+			);
+			path = SkeletonHero;
+			sourceTree = "<group>";
+		};
+		44B2F771293E4DC5007751A6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				44B2F776293E4E64007751A6 /* LandscapeModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		44B2F774293E4DE7007751A6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				44B2F772293E4DE0007751A6 /* View+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		44B2F775293E4DFE007751A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				44B2F778293E5116007751A6 /* LandscapeTableViewCell.swift */,
+				446C4F8A293F98810016A7B3 /* LoadingLandscapeTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EEC102A0805D7013F927C15F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85102626D2437FCCEDE7E909 /* Pods-SkeletonHero.debug.xcconfig */,
+				BA0FF490699E5CD4144C4383 /* Pods-SkeletonHero.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44B2F759293E4D14007751A6 /* SkeletonHero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44B2F76E293E4D16007751A6 /* Build configuration list for PBXNativeTarget "SkeletonHero" */;
+			buildPhases = (
+				1ECFE538C2834057968BFCC3 /* [CP] Check Pods Manifest.lock */,
+				44B2F756293E4D14007751A6 /* Sources */,
+				44B2F757293E4D14007751A6 /* Frameworks */,
+				44B2F758293E4D14007751A6 /* Resources */,
+				74705AEA29B9E2E5F9A05ACC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkeletonHero;
+			productName = SkeletonHero;
+			productReference = 44B2F75A293E4D14007751A6 /* SkeletonHero.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44B2F752293E4D14007751A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					44B2F759293E4D14007751A6 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 44B2F755293E4D14007751A6 /* Build configuration list for PBXProject "SkeletonHero" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44B2F751293E4D14007751A6;
+			productRefGroup = 44B2F75B293E4D14007751A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44B2F759293E4D14007751A6 /* SkeletonHero */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44B2F758293E4D14007751A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44B2F76A293E4D16007751A6 /* LaunchScreen.storyboard in Resources */,
+				44B2F767293E4D16007751A6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1ECFE538C2834057968BFCC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkeletonHero-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74705AEA29B9E2E5F9A05ACC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkeletonHero/Pods-SkeletonHero-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkeletonHero/Pods-SkeletonHero-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SkeletonHero/Pods-SkeletonHero-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44B2F756293E4D14007751A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44B2F762293E4D14007751A6 /* ViewController.swift in Sources */,
+				44B2F779293E5116007751A6 /* LandscapeTableViewCell.swift in Sources */,
+				446C4F8B293F98810016A7B3 /* LoadingLandscapeTableViewCell.swift in Sources */,
+				44B2F75E293E4D14007751A6 /* AppDelegate.swift in Sources */,
+				44B2F773293E4DE0007751A6 /* View+Extension.swift in Sources */,
+				44B2F760293E4D14007751A6 /* SceneDelegate.swift in Sources */,
+				44B2F777293E4E64007751A6 /* LandscapeModel.swift in Sources */,
+				446C4F89293F7FE90016A7B3 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		44B2F768293E4D16007751A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44B2F769293E4D16007751A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44B2F76C293E4D16007751A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44B2F76D293E4D16007751A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44B2F76F293E4D16007751A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85102626D2437FCCEDE7E909 /* Pods-SkeletonHero.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MN5T7HL43G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SkeletonHero/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ikhwan.SkeletonHero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44B2F770293E4D16007751A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA0FF490699E5CD4144C4383 /* Pods-SkeletonHero.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MN5T7HL43G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SkeletonHero/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ikhwan.SkeletonHero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44B2F755293E4D14007751A6 /* Build configuration list for PBXProject "SkeletonHero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44B2F76C293E4D16007751A6 /* Debug */,
+				44B2F76D293E4D16007751A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44B2F76E293E4D16007751A6 /* Build configuration list for PBXNativeTarget "SkeletonHero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44B2F76F293E4D16007751A6 /* Debug */,
+				44B2F770293E4D16007751A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44B2F752293E4D14007751A6 /* Project object */;
+}
