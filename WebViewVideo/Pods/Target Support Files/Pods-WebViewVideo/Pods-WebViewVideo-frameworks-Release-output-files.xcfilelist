@@ -1,0 +1,2 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ModernAVPlayer.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PlayerView.framework
